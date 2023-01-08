@@ -1,6 +1,6 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
-import { Movies } from "./components/Movies";
+import { Movies } from "./components/movies";
 import { Home } from "./components/Home";
 
 const AppRoutes = [
