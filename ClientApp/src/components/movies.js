@@ -2,7 +2,7 @@
 import moonLight from './path/to/MoonlightSonataHBOdocmainpost5992.jpg';
 import ordinary from './path/to/NoOrdinaryHero.jpg';
 import audible from './path/to/Audible.jpg';
-import sound from './path/to/Sound-and-Fury-film-images-dc5b5fe4-82dc-4e7d-acc0-b08f6e1f1af.webp';
+//import sound from './path/to/OIPjfif'; 
 
 export class Movies extends Component {
     static displayName = Movies.name;
@@ -27,11 +27,11 @@ export class Movies extends Component {
                         <p>Amaree is a deaf student at Maryland school for the deaf. Shaken by his friend committing suicide, he does everything in his memory. Amaree plays for the school football team who lose their first game in sixteen seasons. Amaree and the rest of the team spend a lot of time training for the upcoming homecoming game, his last game before he graduates. Watch Amaree as he plays football, builds relationships, and has fun with his friends.</p>
                         <img src={audible} alt="audible netflix image" /> 
                     </li>
-                    <li>
+                    {/*<li>
                         <h3>Sound and Fury</h3>
                         <p>Cousins Heather and Peter Artinian -- ages 6 and almost 2, respectively -- are deaf. Their condition could be changed by a cochlear implant, a device that stimulates hearing. The benefits are obvious, but this documentary focuses on why the children's families face a tough decision. There are concerns about how the device will change the recipient's relationship with deaf culture and whether there can ever be true connection between those who hear sounds and those who hear only silence.</p>
                         <img src={sound} alt="Sound and Fury Movie Poster" />
-                    </li>
+                    </li>*/}
                     <li>
                         <h3>No Ordinary Hero: The SuperDeafy Movie</h3>
                         <p>A deaf actor who plays a superhero on tv helps a young, deaf boy believe in himself when the two cross paths.</p>
