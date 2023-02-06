@@ -22,3 +22,7 @@ a:active {
 h3 {
     color: pink;
 }
+image {
+    max-height: 100px;
+    max-width: 100px;
+}
