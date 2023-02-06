@@ -4,25 +4,39 @@
     padding: 50px;
     margin: 0;
 }
+
 h1 {
     text-decoration: underline;
 }
+
 a {
     text-decoration: none;
 }
+
 a:active {
     text-decoration: underline;
 }
+
 .moon,
 .audible,
 .sound,
 .ordinary {
     color: #00BFFF;
 }
+
 h3 {
     color: pink;
 }
-image {
+
+img {
     max-height: 100px;
     max-width: 100px;
+}
+
+li {
+    margin: 10px;
+}
+
+.movies {
+    font-size: 30px;
 }
