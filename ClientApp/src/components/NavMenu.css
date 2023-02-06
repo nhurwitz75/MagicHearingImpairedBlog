@@ -7,7 +7,7 @@
 html {
   font-size: 14px;
 }
-@media (min-width: 768px) {
+@media {
   html {
     font-size: 16px;
   }
@@ -15,6 +15,6 @@ html {
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
-.list {
-    background-color: white;
+header {
+    background-color: pink;
 }
