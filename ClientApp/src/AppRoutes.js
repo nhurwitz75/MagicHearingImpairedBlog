@@ -2,7 +2,7 @@ import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
 import { Movies } from "./components/movies";
 import { Home } from "./components/Home";
-import { assistive } from "./components/assistive";
+import { Assistive } from "./components/assistive"; 
 
 const AppRoutes = [
     {
@@ -23,7 +23,7 @@ const AppRoutes = [
     },
     {
         path: '/assistive-hearing-devices',
-        element: <assistive />
+        element: <Assistive />
     }
 ];
 

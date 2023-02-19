@@ -42,7 +42,7 @@ export class NavMenu extends Component {
                                 <NavLink tag={Link} className="text-dark" to="/movies-and-books">Movies and Books</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag={Link} className="text-dark" to="/assistive">Assistive Hearing Devices</NavLink>
+                                <NavLink tag={Link} className="text-dark" to="/assistive-hearing-devices">Assistive Hearing Devices</NavLink>
                             </NavItem>
                         </ul>
                     </Collapse>
