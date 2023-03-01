@@ -12,3 +12,12 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+.car {
+    margin-bottom: 30px;
+    max-height: 260px;
+    max-width: 260px;
+    border-radius: 70px;
+}
+.title{
+    color: #FF1493; /*deep pink*/
+}
