@@ -30,7 +30,7 @@ export class Assistive extends Component {
                     {/*</div>*/}
                 </div>
                 <div class="implants">
-                    <div class="">
+                    <div class="description">
                         <h1>Cochlear Implants</h1>
                         <ul>
                             <li>Generally used by people who have profound hearing loss. Meaning they would be almost entirely deaf without them</li>
@@ -39,11 +39,19 @@ export class Assistive extends Component {
                             <li>Provides a sense of sound for the user</li>
                         </ul>
                     </div>
-                    <div>
-                        
-                    </div>
                     <img class="cochlear" src={cochlear} alt="image of a cochlear implant"></img>
                 </div>
+                    <div class="system">
+                        <div class="description">
+                            <h1>FM System</h1>
+                            <ul>
+                                <li>A wireless assistive hearing device that enhances the use of hearing aids, cochlear implants, and anyone who is hard of hearing but does not wear any of the two</li>
+                                <li>Reduces background noise</li>
+                                <li>The teacher or adult in the room wears a microphone around their neck that when they speak it goes straight to the hearing aids or cochlear impkant</li>
+                            </ul>
+                        </div>
+                    </div>
+                
             </div>
         );
     }

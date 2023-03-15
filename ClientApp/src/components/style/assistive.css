@@ -9,6 +9,10 @@
     float: right;
     margin-right: 10px;
 }
+.system .description {
+    float: left;
+    margin-left: 10px;
+}
 /*.image {
     float: right;
     margin-right: 10px;

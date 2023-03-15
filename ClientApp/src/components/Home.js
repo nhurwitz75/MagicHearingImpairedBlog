@@ -7,8 +7,12 @@ export class Home extends Component {
     render() {
         return (
             <div>
+                <div clas="picture">
+                    <center>
+                        <img class="car" src={car} alt="Picture of Me in car"></img>
+                    </center>
+                </div>
                 <div>
-                    <img class="car" src={car} alt="Picture of Me in car"></img>
                     <h3 class="title">About Me</h3>
                     <p>My name is Nava Hurwitz. I currently live in West Hempstead, New York with my parents and three siblings. I am in tenth grade at Stella K. Abraham High School for Girls.
                         One of my favorite classes in school is my STEM class where we are working on how to use an Arduino which is a microcontroller.
