@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import hearing from '../img/hearing.jpg';
 import cochlear from '../img/cochlear.jpg';
+import system from '../fm-system.png';
 
 import './style/assistive.css';
 
@@ -48,6 +49,7 @@ export class Assistive extends Component {
                             <li>The teacher or adult in the room wears a microphone around their neck that when they speak it goes straight to the hearing aids or cochlear impkant</li>
                         </ul>
                     </div>
+                    <img class="fm" src={system} alt="image of a fm system"></img>
                 </div>
             </div>
         );
